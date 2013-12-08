@@ -7,6 +7,8 @@ Note: You'll always end up with at least n-1 edges (where n &equiv; number of no
 
 Algorithms
 ----------
+
+Minimum cost (sum of edge costs is lowest possible):
 * Kruskal's Method
 * Prim's Method
-* Sollin's Method
+* Sollin's Method &mdash; may fail, causing cycles
