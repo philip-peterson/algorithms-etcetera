@@ -43,6 +43,9 @@ Algorithms
 
 Sort
 ====
+* Merge sort (recursive, non-recursive)
+* Quicksort
+* Bogosort!
 
 
 Selection Problems
