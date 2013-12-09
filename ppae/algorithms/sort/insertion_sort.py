@@ -1,4 +1,6 @@
 def _shiftRightByOne(C, a, b):
+   """Shifts all elements in the range [a, b) to the right by one.
+   Causes out-of-bounds error if range is nonempty (a < b) and b >= len(C)."""
    i = b-1
    while i >= a:
       x = C[i]
@@ -6,7 +8,7 @@ def _shiftRightByOne(C, a, b):
       i -= 1
 
 def insertion_sort(A):
-   """Sorts the list A in-place"""
+   """Sorts the list A in place"""
    i = 1
    n = len(A)
    while i < n:
