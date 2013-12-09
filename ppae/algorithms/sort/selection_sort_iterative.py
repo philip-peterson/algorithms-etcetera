@@ -3,7 +3,7 @@ def _swapElements(A, i, j):
    A[i] = A[j]
    A[j] = temp
 
-def selection_sort(A):
+def selection_sort_iterative(A):
    n = len(A)
    i = 0
    while i < n-1:
@@ -19,4 +19,3 @@ def selection_sort(A):
       _swapElements(A, i, minIndex)
 
       i += 1
-   print A

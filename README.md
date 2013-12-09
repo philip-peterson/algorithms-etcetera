@@ -7,6 +7,8 @@ Implemented So Far
 ==================
 * Insertion sort
 * Selection sort
+   - Iterative
+   - Recursive
 
 Note about lack of Pythonicity
 ==============================
