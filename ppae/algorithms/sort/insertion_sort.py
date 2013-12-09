@@ -21,6 +21,10 @@ def insertion_sort(A):
       while j >= 0:
          if A[j] > x:
             lowerBound -= 1
+         else:
+            # We don't have to break here, but doing so skips
+            # a bunch of unnecessary comparisons
+            break 
          j -= 1
       _shiftRightByOne(A, lowerBound, upperBound)
       A[lowerBound] = x
