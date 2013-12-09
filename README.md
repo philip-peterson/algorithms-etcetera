@@ -1,7 +1,7 @@
 What is this?
 =============
 
-It's a collection of explanations about the usefulness, applicability, etc. of various data structures and algorithms I encounter. Mostly a sandbox for me to practice implementing them, so as to understand them myself.
+It's a collection of explanations about the usefulness, applicability, etc. of various data structures and algorithms I encounter, as well as implementations thereof. Mostly a sandbox for me to practice implementing them, so as to understand them myself.
 
 
 Note about lack of Pythonicity
