@@ -45,3 +45,18 @@ Sort
 ====
 
 
+Selection Problems
+==================
+
+Goal: select the nth smallest element from an unordered list.
+
+* Selection by sorting - O(n log n)
+* Divide and conquer selection (like Quicksort)
+    - O(n^2) with a poorly chosen pivot
+    - O(n) with clever pivot choosing
+
+Closest Pair Problems
+=====================
+
+* Brute force - O(n^2)
+* Divide and conquer - O(n log n)
